@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Number of Orders</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Resturant Admin Tools - Create New Account</h1>
+    <nav>
+        <ul>
+            <li><a href="restaurant.html">Home</a></li>
+            <li><a href="numberoforders.php">Number Of Orders</a></li>
+            <li><a href="createnewaccount.html">Create New Account</a></li>
+            <li><a href="selectemployee.php">Employee Schedule</a></li>
+            <li><a href="showaccounts.php">All Accounts</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+    <br>
+
+    <h2>Enter User Information Below:</h2>
+
+    <form action="createaccount.php" method="post">
+        Email: <br><input type="text" name="email" required><br><br>
+        Address: <br><input type="text" name="street" required><br><br>
+        City: <br><input type="text" name="city" required><br><br>
+        Postal Code: <br><input type="text" name="postalCode" required><br><br>
+        Phone Number: <br><input type="text" name="phoneNumber" required><br><br>
+        First Name: <br><input type="text" name="firstName" required><br><br>
+        Last Name: <br><input type="text" name="lastName" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
